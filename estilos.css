@@ -1,0 +1,578 @@
+@charset "UTF-8";
+body {
+  background-image: url(assets/Fondo-Pokemon.jpg);
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.portada__img {
+  width: 100%;
+}
+
+.container {
+  text-align: center;
+  background-image: url(assets/Container-Fondo.png);
+  width: 500px;
+  height: 100px;
+}
+
+.container-titulo {
+  padding-top: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.BuscarPokemonDiv {
+  height: 25px;
+  width: 250px;
+}
+
+.xdddd {
+  width: 100%;
+}
+
+.container-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-lupa {
+  margin-left: 5px;
+  height: 25px;
+  width: 25px;
+}
+
+.lupa {
+  height: 25px;
+  width: 25px;
+}
+
+.generaciones {
+  text-align: center;
+  background-image: url(assets/Container-Fondo.png);
+  width: 500px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.generaciones-cajas {
+  justify-content: center;
+  display: flex;
+}
+
+.Caja-Generación {
+  height: 28px;
+  width: 64px;
+}
+
+.Generación-1,
+.Generación-2,
+.Generación-3,
+.Generación-4,
+.Generación-5 {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+.Generación-1-img,
+.Generación-2-img,
+.Generación-3-img,
+.Generación-4-img,
+.Generación-5-img {
+  width: 100%;
+  height: 100%;
+}
+
+.Caja {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.Caja-Id-Botón {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Caja-Id {
+  width: 70px;
+  height: 70px;
+  text-align: center;
+}
+
+.texto-id {
+  font-size: 38px;
+  margin: 0px;
+  padding-top: 10px;
+}
+
+.Caja-Tipo {
+  display: flex;
+  text-align: center;
+  margin-top: 10px;
+  margin-right: 10px;
+  height: 65px;
+  width: 130px;
+}
+
+.Caja-Tipo- {
+  margin: 5px;
+  height: 30%;
+  background-color: red;
+  border: 2px solid black;
+  border-radius: 2px;
+}
+
+.PokeTipo1,
+.PokeTipo2 {
+  margin: 0px;
+}
+
+.TipoFire {
+  height: 100%;
+  width: 50%;
+  background-image: url(assets/Logo-Fire.png);
+  background-size: 100%;
+  border-radius: 2px;
+}
+
+.TipoGrass {
+  height: 100%;
+  width: 50%;
+  background-image: url(assets/Logo-Grass.png);
+  background-size: 100%;
+  border-radius: 2px;
+}
+
+.TipoBug {
+  height: 100%;
+  width: 50%;
+  background-image: url(assets/Logo-Bug.png);
+  background-size: 100%;
+  border-radius: 2px;
+}
+
+.TipoWater {
+  height: 100%;
+  width: 50%;
+  background-image: url(assets/Logo-Water.png);
+  background-size: 100%;
+  border-radius: 2px;
+}
+
+.TipoNormal {
+  height: 100%;
+  width: 50%;
+  background-image: url(assets/Logo-Normal.png);
+  background-size: 100%;
+  border-radius: 2px;
+}
+
+.TipoPoison {
+  height: 100%;
+  width: 50%;
+  background-image: url(assets/Logo-Poison.png);
+  background-size: 100%;
+  border-radius: 2px;
+}
+
+.TipoElectric {
+  height: 100%;
+  width: 50%;
+  background-image: url(assets/Logo-Electric.png);
+  background-size: 100%;
+  border-radius: 2px;
+}
+
+.TipoDark {
+  height: 100%;
+  width: 50%;
+  background-image: url(assets/Logo-Dark.png);
+  background-size: 100%;
+  border-radius: 2px;
+}
+
+.TipoFlying {
+  height: 100%;
+  width: 50%;
+  background-image: url(assets/Logo-Flying.png);
+  background-size: 100%;
+  border-radius: 2px;
+}
+
+.TipoFighting {
+  height: 100%;
+  width: 50%;
+  background-image: url(assets/Logo-Fighting.png);
+  background-size: 100%;
+  border-radius: 2px;
+}
+
+.TipoDragon {
+  height: 100%;
+  width: 50%;
+  background-image: url(assets/Logo-Dragon.png);
+  background-size: 100%;
+  border-radius: 2px;
+}
+
+.TipoGhost {
+  height: 100%;
+  width: 50%;
+  background-image: url(assets/Logo-Ghost.png);
+  background-size: 100%;
+  border-radius: 2px;
+}
+
+.TipoPhy {
+  height: 100%;
+  width: 50%;
+  background-image: url(assets/Logo-Phychic.png);
+  background-size: 100%;
+  border-radius: 2px;
+}
+
+.TipoRock {
+  height: 100%;
+  width: 50%;
+  background-image: url(assets/Logo-Rock.png);
+  background-size: 100%;
+  border-radius: 2px;
+}
+
+.TipoGround {
+  height: 100%;
+  width: 50%;
+  background-image: url(assets/Logo-Ground.png);
+  background-size: 100%;
+  border-radius: 2px;
+}
+
+.TipoSteel {
+  height: 100%;
+  width: 50%;
+  background-image: url(assets/Logo-Steel.png);
+  background-size: 100%;
+  border-radius: 2px;
+}
+
+.TipoFairy {
+  height: 100%;
+  width: 50%;
+  background-image: url(assets/Logo-Fairy.png);
+  background-size: 100%;
+  border-radius: 2px;
+}
+
+.TipoIce {
+  height: 100%;
+  width: 50%;
+  background-image: url(assets/Logo-Ice.png);
+  background-size: 100%;
+  border-radius: 2px;
+}
+
+.Caja-Botón {
+  width: 70px;
+  height: 70px;
+}
+
+.botonquitar {
+  width: 100%;
+  height: 100%;
+  float: right;
+  font-size: 36px;
+  padding: 0px;
+  margin: 0px;
+  border: 8px solid black;
+}
+
+.Img {
+  width: 50%;
+  margin-left: 25%;
+}
+
+.Caja-Peso {
+  margin-top: 75px;
+}
+
+.texto-peso {
+  padding-left: 15px;
+}
+
+.texto-altura {
+  padding-left: 15px;
+}
+
+.Caja-Nombre {
+  text-align: center;
+}
+
+.texto-nombre {
+  margin-top: 25px;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.CartaSubprincipal {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+  margin: 10px;
+}
+
+.CartaPrincipal:hover .CartaSubprincipal {
+  transform: rotateY(180deg);
+}
+
+.cartafuego,
+.cartafuego- {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.cartafuego {
+  background-image: url(assets/Carta-Fuego-.png);
+  background-size: 100%;
+  height: 450px;
+  width: 300px;
+}
+
+.cartafuego- {
+  transform: rotateY(180deg);
+  background-image: url(assets/Carta-Fuego-2.png);
+  width: 300px;
+  height: 450px;
+  position: absolute;
+  top: 0%;
+}
+
+.cartaplanta,
+.cartaplanta- {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.cartaplanta {
+  background-image: url(assets/Carta-Planta-.png);
+  background-size: 100%;
+  height: 450px;
+  width: 300px;
+}
+
+.cartaplanta- {
+  transform: rotateY(180deg);
+  background-image: url(assets/Carta-Planta-2.png);
+  width: 300px;
+  height: 450px;
+  position: absolute;
+  top: 0%;
+}
+
+.cartaagua,
+.cartaagua- {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.cartaagua {
+  background-image: url(assets/Carta-Agua-.png);
+  background-size: 100%;
+  height: 450px;
+  width: 300px;
+}
+
+.cartaagua- {
+  transform: rotateY(180deg);
+  background-image: url(assets/Carta-Agua-2.png);
+  width: 300px;
+  height: 450px;
+  position: absolute;
+  top: 0%;
+}
+
+.cartaeléctrico,
+.cartaeléctrico- {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.cartaeléctrico {
+  background-image: url(assets/Carta-Eléctrico-.png);
+  background-size: 100%;
+  height: 450px;
+  width: 300px;
+}
+
+.cartaeléctrico- {
+  transform: rotateY(180deg);
+  background-image: url(assets/Carta-Eléctrico-2.png);
+  width: 300px;
+  height: 450px;
+  position: absolute;
+  top: 0%;
+}
+
+.cartanormal,
+.cartanormal- {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.cartanormal {
+  background-image: url(assets/Carta-Normal-.png);
+  background-size: 100%;
+  height: 450px;
+  width: 300px;
+}
+
+.cartanormal- {
+  transform: rotateY(180deg);
+  background-image: url(assets/Carta-Normal-2.png);
+  width: 300px;
+  height: 450px;
+  position: absolute;
+  top: 0%;
+}
+
+.cartadragón,
+.cartadragón- {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.cartadragón {
+  background-image: url(assets/Carta-Dragón-.png);
+  background-size: 100%;
+  height: 450px;
+  width: 300px;
+}
+
+.cartadragón- {
+  transform: rotateY(180deg);
+  background-image: url(assets/Carta-Dragón-2.png);
+  width: 300px;
+  height: 450px;
+  position: absolute;
+  top: 0%;
+}
+
+.cartaveneno,
+.cartaveneno- {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.cartaveneno {
+  background-image: url(assets/Carta-Veneno-.png);
+  background-size: 100%;
+  height: 450px;
+  width: 300px;
+}
+
+.cartaveneno- {
+  transform: rotateY(180deg);
+  background-image: url(assets/Carta-Veneno-2.png);
+  width: 300px;
+  height: 450px;
+  position: absolute;
+  top: 0%;
+}
+
+.cartalucha,
+.cartalucha- {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.cartalucha {
+  background-image: url(assets/Carta-Lucha-.png);
+  background-size: 100%;
+  height: 450px;
+  width: 300px;
+}
+
+.cartalucha- {
+  transform: rotateY(180deg);
+  background-image: url(assets/Carta-Lucha-2.png);
+  width: 300px;
+  height: 450px;
+  position: absolute;
+  top: 0%;
+}
+
+.cartasombra,
+.cartasombra- {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.cartasombra {
+  background-image: url(assets/Carta-Sombra-.png);
+  background-size: 100%;
+  height: 450px;
+  width: 300px;
+}
+
+.cartasombra- {
+  transform: rotateY(180deg);
+  background-image: url(assets/Carta-Sombra-2.png);
+  width: 300px;
+  height: 450px;
+  position: absolute;
+  top: 0%;
+}
+
+.cartaacero,
+.cartaacero- {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.cartaacero {
+  background-image: url(assets/Carta-Acero-.png);
+  background-size: 100%;
+  height: 450px;
+  width: 300px;
+}
+
+.cartaacero- {
+  transform: rotateY(180deg);
+  background-image: url(assets/Carta-Acero-2.png);
+  width: 300px;
+  height: 450px;
+  position: absolute;
+  top: 0%;
+}
+
+.carta1 {
+  background-color: white;
+  margin: 10px;
+  height: 506px;
+  width: 360px;
+}
+
+.Caja-Jugador {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  position: fixed;
+  bottom: 15px;
+  right: 30px;
+  z-index: 1000;
+}
+
+.Jugadorxd {
+  width: 100%;
+}/*# sourceMappingURL=estilos.css.map */
