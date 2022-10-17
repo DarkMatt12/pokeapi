@@ -74,7 +74,10 @@ main {
 .Generación-2,
 .Generación-3,
 .Generación-4,
-.Generación-5 {
+.Generación-5,
+.Generación-6,
+.Generación-7,
+.Generación-8 {
   margin: 0px;
   padding: 0px;
   height: 100%;
@@ -85,7 +88,10 @@ main {
 .Generación-2-img,
 .Generación-3-img,
 .Generación-4-img,
-.Generación-5-img {
+.Generación-5-img,
+.Generación-6-img,
+.Generación-7-img,
+.Generación-8-img {
   width: 100%;
   height: 100%;
 }
@@ -550,6 +556,28 @@ main {
 .cartaacero- {
   transform: rotateY(180deg);
   background-image: url(assets/Carta-Acero-2.png);
+  width: 300px;
+  height: 450px;
+  position: absolute;
+  top: 0%;
+}
+
+.cartaamor,
+.cartaamor- {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.cartaamor {
+  background-image: url(assets/Carta-Amor-.png);
+  background-size: 100%;
+  height: 450px;
+  width: 300px;
+}
+
+.cartaamor- {
+  transform: rotateY(180deg);
+  background-image: url(assets/Carta-Amor-2.png);
   width: 300px;
   height: 450px;
   position: absolute;
